@@ -14,7 +14,6 @@ let sachinimg=document.getElementById("m-blaster-img")
 let sachin=document.getElementById("m-blaster")
 sachin.addEventListener("click",function(){
     sachinimg.style.display="block";
-    sachinimg.style.transform="translate(5em,-18em)"
     sachinimg.onmouseleave=()=>{
         sachinimg.style.display="none";
     }
@@ -24,7 +23,6 @@ let gautamimg=document.getElementById("bjp-img")
 let gautam=document.getElementById("bjp")
 gautam.addEventListener("click",function(){
     gautamimg.style.display="block";
-    gautamimg.style.transform="translate(5em,-16em)"
     gautamimg.onmouseleave=()=>{
         gautamimg.style.display="none";
     }
@@ -33,7 +31,6 @@ let viratimg=document.getElementById("chiku-img")
 let virat=document.getElementById("chiku")
 virat.addEventListener("click",function(){
     viratimg.style.display="block";
-    viratimg.style.transform="translate(4em,-14em)"
     viratimg.onmouseleave=()=>{
         viratimg.style.display="none";
     }
@@ -43,7 +40,6 @@ let dhoniImg=document.getElementById("mahi-img")
 let dhoni=document.getElementById("mahi")
 dhoni.addEventListener("click",function(){
     dhoniImg.style.display="block";
-    dhoniImg.style.transform="translate(5em,-12em)"
     dhoniImg.onmouseleave=()=>{
         dhoniImg.style.display="none";
     }
@@ -53,7 +49,6 @@ let yuvrajimg=document.getElementById("yuvi-img")
 let yuvraj=document.getElementById("yuvi")
 yuvraj.addEventListener("click",function(){
     yuvrajimg.style.display="block";
-    yuvrajimg.style.transform="translate(5em,-10em)"
     yuvrajimg.onMouseLeave=()=>{
         yuvrajimg.style.display="none";
     }
@@ -84,7 +79,6 @@ let khanimg=document.getElementById("khan-img")
 let khan=document.getElementById("khan")
 khan.addEventListener("click",function(){
     khanimg.style.display="block";
-    khanimg.style.transform="translate(25em,0em)"
     khanimg.onmouseleave=()=>{
         khanimg.style.display="none";
     }
@@ -95,7 +89,6 @@ let patelimg=document.getElementById("patel-img")
 let patel=document.getElementById("patel")
 patel.addEventListener("click",function(){
     patelimg.style.display="block";
-    patelimg.style.transform="translate(33em,0em)"
     patelimg.onmouseleave=()=>{
         patelimg.style.display="none";
     }
@@ -105,7 +98,6 @@ let sreeshantimg=document.getElementById("shanth-img")
 let sreeshant=document.getElementById("shanth")
 sreeshant.addEventListener("click",function(){
     sreeshantimg.style.display="block";
-    sreeshantimg.style.transform="translate(39em,0em)"
     sreeshantimg.onmouseleave=()=>{
         sreeshantimg.style.display="none";
     }
