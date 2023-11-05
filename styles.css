@@ -1,0 +1,123 @@
+body {
+    background-image: url('https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png');
+   
+    
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+  }
+  .logo {
+    
+    float: right;
+    text-align: right;
+    justify-content: right;
+  }
+
+  .player{
+    color: blue;
+    font-style: normal;
+    cursor: pointer;
+  }
+  .table{
+    width: 1000px;
+    height: 450px;
+    border-collapse: collapse;
+    background-color: white;
+    font-size: 20px;
+  }
+  .table thead tr{
+    
+    color: rgb(20, 17, 17);
+    text-align: end;
+    border-bottom: 1px solid rgb(202, 198, 198);
+  } 
+  .table  th,.table  td{
+    padding: 8px 10px;
+    text-align: center;
+  }
+  .table tbody tr{
+    border-bottom: 1px solid rgb(219, 206, 206);
+  }
+
+  .top {
+    display: flex;
+    background-color: rgb(252, 62, 62);
+    color: white;
+    padding: 10px;
+    justify-content: space-between;
+    width: 980px;
+  }
+  .baller{
+    
+    color: rgb(160, 145, 145);
+
+  }
+  h1{
+    padding-top: 45px;
+    text-shadow: 2px 2px #bbb1b1;
+    font-weight: 700;
+  }
+  h3{
+    padding-bottom: 25px;
+  }
+
+  a{
+    text-decoration: none;
+    color: rgb(10, 10, 207);
+  }
+  footer{
+    display: flex;
+    
+    align-items: center;
+    margin-bottom: 0px;
+    padding-top: 55px;
+    display: contents;
+  }
+.img{
+  width: 440px;
+  display: none;
+  position: absolute;
+}
+#sachin-img{
+  top: 345px;
+}
+
+#gambhir-img{
+  top: 390px;
+}
+
+#kohli-img{
+  top: 435px;
+}
+
+#dhoni-img{
+  top: 480px;
+}
+
+#yuvraj-img{
+  top: 525px;
+}
+
+.top{
+  top: 685px;
+}
+
+#raina-img{
+  left: 340px;
+}
+
+#harbhajan-img{
+  left: 470px;
+}
+
+#zaheer-img{
+  left: 630px;
+}
+
+#munaf-img{
+  left: 740px;
+}
+
+#sreesanth-img{
+  left: 850px;
+}
