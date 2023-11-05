@@ -2,7 +2,6 @@ let veeruimg=document.getElementById("viru-img")
 let veeru=document.getElementById("viru")
 veeru.addEventListener("click",function(){
     veeruimg.style.display="block";
-    // veeruimg.style.transform="translate(5em,-20em)"
     veeru.img.style.zIndex="1"
     veeruimg.onMouseLeave=()=>{
         veeruimg.style.display="none";
