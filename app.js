@@ -57,7 +57,7 @@ let sureshimg=document.getElementById("rane-img")
 let suresh=document.getElementById("rane")
 suresh.addEventListener("click",function(){
     sureshimg.style.display="block";
-    sureshimg.style.transform="translate(10em,0em)"
+    
     sureshimg.onMouseLeave=()=>{
         sureshimg.style.display="none";
     }
@@ -68,7 +68,7 @@ let singhimg=document.getElementById("bhajji-img")
 let singh=document.getElementById("singh")
 singh.addEventListener("click",function(){
     singhimg.style.display="block";
-    singhimg.style.transform="translate(20em,0em)"
+    
     singhimg.onMouseLeave=()=>{
         singhimg.style.display="none";
     }
