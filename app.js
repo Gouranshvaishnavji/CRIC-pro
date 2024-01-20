@@ -3,7 +3,7 @@ let veeru=document.getElementById("viru")
 let count = 0
 veeru.addEventListener("click",function(){
     if (count=== 0){
-    let count = 1
+    count = 1
     veeruimg.style.display="block";
     veeruimg.style.zIndex="1"
     }else{
