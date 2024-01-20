@@ -1,6 +1,6 @@
 let veeruimg=document.getElementById("viru-img")
 let veeru=document.getElementById("viru")
-let count = 0
+var count = 0
 veeru.addEventListener("click",function(){
     if (count=== 0){
     count = 1
