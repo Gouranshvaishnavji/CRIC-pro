@@ -1,10 +1,15 @@
 let veeruimg=document.getElementById("viru-img")
 let veeru=document.getElementById("viru")
+let count = 0
 veeru.addEventListener("click",function(){
+    if (let count= 0){
+    let count = count + 1
     veeruimg.style.display="block";
     veeru.img.style.zIndex="1"
-    veeruimg.onMouseLeave=()=>{
-        veeruimg.style.display="none";
+    }else{
+        veeruimg.style.display = "none"
+        count = count - 1
+    
 
     }
 })
