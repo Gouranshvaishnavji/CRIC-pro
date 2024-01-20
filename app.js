@@ -2,17 +2,17 @@ let veeruimg=document.getElementById("viru-img")
 let veeru=document.getElementById("viru")
 let count = 0
 veeru.addEventListener("click",function(){
-    if (let count= 0){
-    let count = count + 1
+    if (count=== 0){
+    let count = 1
     veeruimg.style.display="block";
-    veeru.img.style.zIndex="1"
+    veeruimg.style.zIndex="1"
     }else{
-        veeru.img.style.display = "none";
-        count = count - 1;
+        veeruimg.style.display = "none";
+        count = 0;
     
 
     }
-})
+});
 
 let sachinimg=document.getElementById("m-blaster-img")
 let sachin=document.getElementById("m-blaster")
