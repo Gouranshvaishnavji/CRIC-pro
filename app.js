@@ -7,8 +7,8 @@ veeru.addEventListener("click",function(){
     veeruimg.style.display="block";
     veeru.img.style.zIndex="1"
     }else{
-        veeruimg.style.display = "none"
-        count = count - 1
+        veeru.img.style.display = "none";
+        count = count - 1;
     
 
     }
