@@ -5,7 +5,7 @@ veeru.addEventListener("click",function(){
     if (count=== 0){
     count = 1
     veeruimg.style.display="block";
-    veeruimg.style.zIndex="1"
+    // veeruimg.style.zIndex="1"
     }else{
         veeruimg.style.display = "none";
         count = 0;
